@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* Changes the color and font for entire page! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+/* apply styles to the header */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+/* change font to bold, font size, and font color */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+  }
+  
+  header a {
+    color: #fce138;
+  }
+/* change header a color */
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+/* display header li horizontally */
+header nav ul li {
+    display: inline;
+}
+/* changes header li a text smaller and changes font size  */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
