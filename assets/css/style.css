@@ -21,10 +21,6 @@ header h1 {
     margin: 0;
     display: inline;
   }
-  
-  header a {
-    color: #fce138;
-  }
 /* change header a color */
 header a {
     text-decoration: none;
@@ -63,16 +59,18 @@ footer div {
 footer a {
     color: #024e76;
 }
+section {
+    padding: 60px;
+}
 /* Hero Style Start */
 .hero {
-    background-image: url(https://static.fullstack-bootcamp.com/module-1/hero-bg%2Ejpg);
+    background-image: url(https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg);
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
 /* Hero Style End */
-
 .hero-form {
     border: 3px solid #024e76;
     background-color: #fce138;
@@ -112,9 +110,6 @@ footer a {
 .intro {
     text-align: center;
 }
-.intro h2 {
-
-}
 .intro p {
     line-height:  1.7;
     color: #39a6b2;
@@ -125,9 +120,6 @@ footer a {
 .steps {
     text-align: center;
     background: #fce138;
-}
-.steps h2 {
-
 }
 .steps div {
     margin-bottom: 80px;
