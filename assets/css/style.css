@@ -33,15 +33,19 @@ header nav {
     
     margin: 7px 0;
 }
-/* display header li horizontally */
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
 }
 /* changes header li a text smaller and changes font size  */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 footer {
     background: #fce138;
